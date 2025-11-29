@@ -1,0 +1,82 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# ----------------------------
+# Data files
+# ----------------------------
+# Raw and processed datasets
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.json
+
+# ----------------------------
+# Logs
+*.log
+
+# ----------------------------
+# IDE / Editor files
+# ----------------------------
+# VSCode
+.vscode/
+# JetBrains
+.idea/
+# Others
+*.swp
+*.swo
+
+# ----------------------------
+# OS files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Environment / Secrets
+# ----------------------------
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Credentials (PostgreSQL, API, etc.)
+*.key
+*.pem
+
+# ----------------------------
+# Build / Distribution
+# ----------------------------
+build/
+dist/
+*.egg-info/
+
+# ----------------------------
+# Reports / Generated Files
+# ----------------------------
+outputs/
+reports/
+figures/
+plots/
+
+# ----------------------------
+# HuggingFace / NLP Model Caches
+# ----------------------------
+hf_cache/
+transformers_cache/
+.cache/
