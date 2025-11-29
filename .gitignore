@@ -20,11 +20,10 @@ ENV/
 # Data files
 # ----------------------------
 # Raw and processed datasets
-data/raw/
-data/processed/
-*.csv
-*.tsv
-*.json
+# data/
+# *.csv
+# *.tsv
+# *.json
 
 # ----------------------------
 # Logs
