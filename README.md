@@ -1,7 +1,7 @@
 # tenxWeek-2: Customer Experience Analytics
 
 ## Overview
-This information contains the code and data for Task 1: Data Collection and Preprocessing of Google Play Store reviews for three Ethiopian bank apps (CBE, BOA, Dashen Bank).
+This information contains the code and data for Task 1: Data Collection and Preprocessing of Google Play Store reviews for three Ethiopian bank apps (CBE, BOA, Dashen Bank) and Task 2: Sentiment and Thematic Analysis
 
 ## Task 1: Data Collection and Preprocessing
 
@@ -83,9 +83,10 @@ Manual Theme Grouping: Keywords mapped into 3–5 overarching themes per bank:
 | **Customer Support**            | support, response, call        |
 ```
 Outputs:
-    ``` data/top_keywords_per_bank.csv # keywords grouped per bank ```
+    ``` data/top_keywords_per_bank.csv # keywords grouped per bank 
 
-    ``` data/keywords_with_themes.csv # keywords assigned to themes ```
+     data/keywords_with_themes.csv # keywords assigned to themes
+     ```
 
 ### Modularity & Reproducibility
 
