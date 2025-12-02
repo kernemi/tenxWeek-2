@@ -94,7 +94,7 @@ Sentiment and thematic analyses are modular scripts, so they can be rerun indepe
 
 Supports updates with new reviews or model improvements.
 
-### Task 3: Store Cleaned Data in PostgreSQL
+## Task 3: Store Cleaned Data in PostgreSQL
 
 This task involved creating a relational database to store all cleaned review and sentiment data.
 
