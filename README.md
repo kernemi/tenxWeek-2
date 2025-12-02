@@ -94,10 +94,12 @@ Sentiment and thematic analyses are modular scripts, so they can be rerun indepe
 
 Supports updates with new reviews or model improvements.
 
-### Next Steps
+### Task 3: Store Cleaned Data in PostgreSQL
 
-Aggregate results to identify top drivers and pain points for each bank.
+This task involved creating a relational database to store all cleaned review and sentiment data.
 
-Visualize sentiment trends and theme distributions for reporting in Task 4.
+✔ What was done: Installed PostgreSQL locally, Created database bank_reviews, Designed banks and reviews tables, Added schema.sql for reproducibility, Inserted 1,200+ reviews using insert_data.py, Verified data integrity using sample SQL queries.
 
-Use visualizations (bar charts, stacked bars, word clouds) to communicate insights to stakeholders.
+✔ Files Added: db/schema.sql, db/verify.sql, scripts/insert_data.py
+
+✔ KPIs Achieved: 1,200+ review entries inserted, Clean relational schema, Data validated in PostgreSQL
