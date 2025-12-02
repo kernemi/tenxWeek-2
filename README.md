@@ -103,3 +103,36 @@ This task involved creating a relational database to store all cleaned review an
 ✔ Files Added: db/schema.sql, db/verify.sql, scripts/insert_data.py
 
 ✔ KPIs Achieved: 1,200+ review entries inserted, Clean relational schema, Data validated in PostgreSQL
+
+## Task 4:Insights, Plots & Recommendations
+
+✔ What was done: Sentiment distribution computed, Themes extracted from keywords, Two plots generated, Drivers and pain points defined, Recommendations created per bank
+
+✔ Files Added: notebooks/plots.ipynb, visualizations/thene_distribution_bar.png
+
+✔ KPIs Achieved: 3+ insights per bank, 2+ plots, Stakeholder-friendly summary
+
+## Insights
+CBE
+
+Drivers: Fast transactions, Reliable authentication
+
+Pain Points: Slow transfer loading, Occasional login issues
+
+Recommendations: Optimize backend API for transfer endpoints, Improve session management on login
+
+BOA
+
+Drivers: Simple UI, Good navigation
+
+Pain Points: App crashes, Fingerprint login failure
+
+Recommendations: Refactor stability issues,Add biometric fallback
+
+Dashen
+
+Drivers:Fast UI, Smooth navigation
+
+Pain Points:Network-dependent errors, Delayed OTP
+
+Recommendations: Reduce network dependency, Implement in-app OTP generation
